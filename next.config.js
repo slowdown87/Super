@@ -2,17 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
-  exportPathMap: async function (
-    defaultPathMap,
-    { dev, dir, outDir, distDir, buildId }
-  ) {
-    return {
-      '/': { page: '/' },
-      '/courses': { page: '/courses' },
-      '/simulation': { page: '/simulation' },
-      '/portfolio': { page: '/portfolio' },
-    }
-  },
+  output: 'export',
+  basePath: '/Super',
+  assetPrefix: '/Super',
 }
 
 module.exports = nextConfig
