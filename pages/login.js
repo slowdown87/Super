@@ -49,7 +49,7 @@ const Login = () => {
       });
       setSuccess('登录成功，正在跳转到首页...');
       setTimeout(() => {
-        window.location.href = '/';
+        window.location.href = '/Super/';
       }, 1000);
     } else {
       setError('邮箱或密码错误');

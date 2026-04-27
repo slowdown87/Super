@@ -78,7 +78,7 @@ const Register = () => {
 
     setSuccess('注册成功，正在跳转到首页...');
     setTimeout(() => {
-      window.location.href = '/';
+      window.location.href = '/Super/';
     }, 1000);
   };
 

@@ -100,7 +100,7 @@ const Navbar = () => {
                       onClick={(e) => {
                         e.preventDefault();
                         // 这里应该调用退出登录的逻辑
-                        window.location.href = '/';
+                        window.location.href = '/Super/';
                       }}
                     >
                       退出登录
@@ -189,7 +189,7 @@ const Navbar = () => {
                   onClick={(e) => {
                     e.preventDefault();
                     // 这里应该调用退出登录的逻辑
-                    window.location.href = '/';
+                    window.location.href = '/Super/';
                   }}
                 >
                   退出登录

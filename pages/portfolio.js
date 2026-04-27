@@ -19,7 +19,7 @@ const Portfolio = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-4">请先登录</h1>
           <p className="text-gray-600 mb-8">登录后才能查看和管理您的投资组合</p>
-          <a href="/login" className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">
+          <a href="/Super/login" className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">
             去登录
           </a>
         </div>
@@ -83,7 +83,7 @@ const Portfolio = () => {
                 <div className="p-6 text-center">
                   <p className="text-gray-600 mb-4">您还没有持仓</p>
                   <button 
-                    onClick={() => window.location.href = '/simulation'}
+                    onClick={() => window.location.href = '/Super/simulation'}
                     className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
                   >
                     去模拟交易
@@ -217,7 +217,7 @@ const Portfolio = () => {
               <h2 className="text-xl font-semibold text-gray-900 mb-4">快速操作</h2>
               <div className="space-y-3">
                 <button 
-                  onClick={() => window.location.href = '/simulation'}
+                  onClick={() => window.location.href = '/Super/simulation'}
                   className="w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
                 >
                   进行交易
