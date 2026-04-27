@@ -13,47 +13,47 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/Super/">
+              <Link href="/">
                 <span className="text-xl font-bold text-blue-600 cursor-pointer">智投学堂</span>
               </Link>
             </div>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
-              <Link href="/Super/">
+              <Link href="/">
                 <a className="border-blue-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   首页
                 </a>
               </Link>
-              <Link href="/Super/courses">
+              <Link href="/courses">
                 <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   课程学习
                 </a>
               </Link>
-              <Link href="/Super/learning">
+              <Link href="/learning">
                 <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   学习中心
                 </a>
               </Link>
-              <Link href="/Super/achievements">
+              <Link href="/achievements">
                 <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   成就
                 </a>
               </Link>
-              <Link href="/Super/assistant">
+              <Link href="/assistant">
                 <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   智能助手
                 </a>
               </Link>
-              <Link href="/Super/practice">
+              <Link href="/practice">
                 <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   实践环境
                 </a>
               </Link>
-              <Link href="/Super/simulation">
+              <Link href="/simulation">
                 <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   模拟交易
                 </a>
               </Link>
-              <Link href="/Super/portfolio">
+              <Link href="/portfolio">
                 <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   投资组合
                 </a>
@@ -89,7 +89,7 @@ const Navbar = () => {
                 </button>
                 {isDropdownOpen && (
                   <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10">
-                    <Link href="/Super/profile">
+                    <Link href="/profile">
                       <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                         个人资料
                       </a>
@@ -109,7 +109,7 @@ const Navbar = () => {
                 )}
               </div>
             ) : (
-              <Link href="/Super/login">
+              <Link href="/login">
                 <a className="text-gray-500 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                   登录
                 </a>
@@ -136,49 +136,49 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link href="/Super/">
+            <Link href="/">
               <a className="bg-blue-50 border-blue-500 text-blue-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 首页
               </a>
             </Link>
-            <Link href="/Super/courses">
+            <Link href="/courses">
               <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 课程学习
               </a>
             </Link>
-            <Link href="/Super/learning">
+            <Link href="/learning">
               <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 学习中心
               </a>
             </Link>
-            <Link href="/Super/achievements">
+            <Link href="/achievements">
               <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 成就
               </a>
             </Link>
-            <Link href="/Super/assistant">
+            <Link href="/assistant">
               <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 智能助手
               </a>
             </Link>
-            <Link href="/Super/practice">
+            <Link href="/practice">
               <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 实践环境
               </a>
             </Link>
-            <Link href="/Super/simulation">
+            <Link href="/simulation">
               <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 模拟交易
               </a>
             </Link>
-            <Link href="/Super/portfolio">
+            <Link href="/portfolio">
               <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 投资组合
               </a>
             </Link>
             {appData?.user ? (
               <>
-                <Link href="/Super/profile">
+                <Link href="/profile">
                   <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                     个人资料
                   </a>
@@ -196,7 +196,7 @@ const Navbar = () => {
                 </a>
               </>
             ) : (
-              <Link href="/Super/login">
+              <Link href="/login">
                 <a className="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                   登录/注册
                 </a>

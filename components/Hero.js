@@ -33,12 +33,12 @@ const Hero = () => {
           )}
           
           <div className="mt-10 max-w-3xl mx-auto flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/Super/courses">
+            <Link href="/courses">
               <a className="bg-white text-blue-600 px-8 py-3 rounded-md text-lg font-medium hover:bg-gray-100 transition-colors">
                 开始学习
               </a>
             </Link>
-            <Link href="/Super/simulation">
+            <Link href="/simulation">
               <a className="bg-transparent border border-white text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-white hover:text-blue-600 transition-colors">
                 模拟交易
               </a>

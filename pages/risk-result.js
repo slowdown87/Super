@@ -19,7 +19,7 @@ const RiskResultPage = () => {
           <div className="text-center py-20">
             <h1 className="text-2xl font-bold text-gray-900 mb-4">请先登录</h1>
             <p className="text-gray-600 mb-6">登录后才能查看风险评估结果</p>
-            <a href="/Super/login" className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">
+            <a href="/login" className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">
               去登录
             </a>
           </div>
