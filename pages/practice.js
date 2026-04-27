@@ -20,7 +20,7 @@ const PracticePage = () => {
           <div className="text-center py-20">
             <h1 className="text-2xl font-bold text-gray-900 mb-4">请先登录</h1>
             <p className="text-gray-600 mb-6">登录后才能使用实践环境</p>
-            <a href="/login" className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">
+            <a href="/Super/login" className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">
               去登录
             </a>
           </div>
@@ -264,15 +264,15 @@ const PracticePage = () => {
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">学习资源</h2>
               <div className="space-y-3">
-                <a href="/courses" className="block p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
+                <a href="/Super/courses" className="block p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
                   <h3 className="font-medium text-gray-900 mb-1">投资基础知识</h3>
                   <p className="text-sm text-gray-600">了解投资的基本概念和原理</p>
                 </a>
-                <a href="/courses" className="block p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
+                <a href="/Super/courses" className="block p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
                   <h3 className="font-medium text-gray-900 mb-1">投资策略详解</h3>
                   <p className="text-sm text-gray-600">掌握不同的投资策略和方法</p>
                 </a>
-                <a href="/courses" className="block p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
+                <a href="/Super/courses" className="block p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
                   <h3 className="font-medium text-gray-900 mb-1">风险管理</h3>
                   <p className="text-sm text-gray-600">学习如何管理投资风险</p>
                 </a>
